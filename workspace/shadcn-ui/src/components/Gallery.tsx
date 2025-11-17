@@ -1,11 +1,13 @@
 import { useLanguage } from './LanguageSwitcher';
+import mainImage from '/public/assets/ministry_coffee_main.jpg';
+import exteriorImage from '/public/assets/ministry_coffee_exterior_1.jpg';
 
 export const Gallery = () => {
   const { t } = useLanguage();
 
   const images = [
-    { src: '/assets/ministry_coffee_main.jpg', alt: 'Ministry of Coffee - Main' },
-    { src: '/assets/ministry_coffee_exterior_1.jpg', alt: 'Ministry of Coffee - Exterior' },
+    { src: mainImage, alt: 'Ministry of Coffee - Main' },
+    { src: exteriorImage, alt: 'Ministry of Coffee - Exterior' },
   ];
 
   return (

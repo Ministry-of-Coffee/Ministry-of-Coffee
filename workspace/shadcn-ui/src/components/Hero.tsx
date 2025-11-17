@@ -1,5 +1,7 @@
 import { useLanguage } from './LanguageSwitcher';
 import { Button } from '@/components/ui/button';
+import mainImage from '/public/assets/ministry_coffee_main.jpg';
+import logoImage from '/public/assets/logo.jpg';
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -13,14 +15,14 @@ export const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url(/assets/ministry_coffee_main.jpg)',
+          backgroundImage: `url(${mainImage})`,
           filter: 'brightness(0.4)',
         }}
       />
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="flex justify-center mb-6">
           <img 
-            src="/assets/logo.jpg" 
+            src={logoImage} 
             alt="Ministry of Coffee Logo" 
             className="h-32 w-32 rounded-full border-4 border-white shadow-2xl"
           />

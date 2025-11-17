@@ -5,6 +5,8 @@ import { Features } from '@/components/Features';
 import { Gallery } from '@/components/Gallery';
 import { Location } from '@/components/Location';
 import { Facebook, Instagram } from 'lucide-react';
+import logoVariant1 from '/public/assets/public/assets/logo_variant_1.jpg';
+import logoVariant2 from '/public/assets/public/assets/logo_variant_2.jpg';
 
 const Navigation = () => {
   const { t } = useLanguage();
@@ -19,7 +21,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="/assets/logo_variant_1.jpg" 
+              src={logoVariant1} 
               alt="Ministry of Coffee" 
               className="h-10 w-10 rounded-full"
             />
@@ -70,7 +72,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="flex items-center gap-3 justify-center md:justify-start mb-3">
               <img 
-                src="/assets/logo_variant_2.jpg" 
+                src={logoVariant2} 
                 alt="Ministry of Coffee" 
                 className="h-12 w-12 rounded-full"
               />
