@@ -1,0 +1,17 @@
+$ pip install requests beautifulsoup4 lxml
+pip is deprecated in this environment, using 'uv pip' as replacement
+[2mUsing CPython 3.10.18 interpreter at: /opt/python/envs/mgx-chat/bin/python3[0m
+[2mResolved [1m9 packages[0m [2min 126ms[0m[0m
+[36m[1mDownloading[0m[39m lxml [2m(5.0MiB)[0m
+ [32m[1mDownloading[0m[39m lxml
+[2mPrepared [1m9 packages[0m [2min 321ms[0m[0m
+[2mInstalled [1m9 packages[0m [2min 4.04s[0m[0m
+ [32m+[39m [1mbeautifulsoup4[0m[2m==4.14.2[0m
+ [32m+[39m [1mcertifi[0m[2m==2025.11.12[0m
+ [32m+[39m [1mcharset-normalizer[0m[2m==3.4.4[0m
+ [32m+[39m [1midna[0m[2m==3.11[0m
+ [32m+[39m [1mlxml[0m[2m==6.0.2[0m
+ [32m+[39m [1mrequests[0m[2m==2.32.5[0m
+ [32m+[39m [1msoupsieve[0m[2m==2.8[0m
+ [32m+[39m [1mtyping-extensions[0m[2m==4.15.0[0m
+ [32m+[39m [1murllib3[0m[2m==2.5.0[0m

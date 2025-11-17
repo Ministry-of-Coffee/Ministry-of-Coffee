@@ -1,0 +1,9 @@
+$ pip install requests beautifulsoup4 lxml pillow
+pip is deprecated in this environment, using 'uv pip' as replacement
+[2mUsing CPython 3.10.18 interpreter at: /opt/python/envs/mgx-chat/bin/python3[0m
+[2mResolved [1m10 packages[0m [2min 105ms[0m[0m
+[36m[1mDownloading[0m[39m pillow [2m(6.7MiB)[0m
+ [32m[1mDownloading[0m[39m pillow
+[2mPrepared [1m1 package[0m [2min 461ms[0m[0m
+[2mInstalled [1m1 package[0m [2min 2.16s[0m[0m
+ [32m+[39m [1mpillow[0m[2m==12.0.0[0m

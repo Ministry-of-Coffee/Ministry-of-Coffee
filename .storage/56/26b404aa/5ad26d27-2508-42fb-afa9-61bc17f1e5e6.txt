@@ -1,0 +1,55 @@
+$ ls -la /workspace/images/
+total 1647
+drwxr-xr-x  4 root root 421888 Nov 17 03:28 .
+drwxr-xr-x 61 root root 847872 Nov 17 03:32 ..
+-rw-r--r--  1 root root 207966 Nov 17 03:28 ministry_coffee_exterior_1.jpg
+-rw-r--r--  1 root root 207966 Nov 17 03:25 ministry_coffee_main.jpg
+$ cd /workspace/shadcn-ui
+
+$ cd /workspace/shadcn-ui && mkdir -p public/assets && cp /workspace/images/*.jpg public/assets/
+
+$ cd /workspace/shadcn-ui && pnpm run lint
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1718 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.62 kB │ gzip:   0.71 kB
+dist/assets/index-RCQC0oO0.css   63.47 kB │ gzip:  11.07 kB
+dist/assets/index-j-gdN6z5.js   407.23 kB │ gzip: 128.44 kB
+✓ built in 5.87s
+$ cd /workspace/shadcn-ui/public/assets && curl -o logo.jpg "https://scontent-waw2-2.cdninstagram.com/v/t51.2885-19/346262324_1435544503939387_315661907480191950_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43OTQuYzIifQ&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2QGz51UZ7R_vP8gsbjaWuHwiqvfRDa5pTDWy99Pp1gkQyDmZ5bpYALHjJr3f1GyMBGo&_nc_ohc=DxpcPojWpdsQ7kNvwGZKCiE&_nc_gid=VUTgl1-q_V9670B4KDj4yQ&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfgnSNGpJlM1xxpzGGCO8pQReMs7IlAzo-YtP4FduDkxQQ&oe=6920C948&_nc_sid=22de04"
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 46 54658   46 25362    0     0  34881      0  0:00:01 --:--:--  0:00:01 34885100 54658  100 54658    0     0  63549      0 --:--:-- --:--:-- --:--:-- 63555
+$ cd /workspace/shadcn-ui && pnpm run lint && pnpm run build
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1718 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.62 kB │ gzip:   0.71 kB
+dist/assets/index-B6zqgEH9.css   64.20 kB │ gzip:  11.17 kB
+dist/assets/index-BOU0Szbk.js   408.66 kB │ gzip: 128.70 kB
+✓ built in 5.46s

@@ -1,0 +1,8 @@
+$ ls -la /workspace/images/
+total 1647
+drwxr-xr-x  4 root root 421888 Nov 17 03:28 .
+drwxr-xr-x 61 root root 847872 Nov 17 03:32 ..
+-rw-r--r--  1 root root 207966 Nov 17 03:28 ministry_coffee_exterior_1.jpg
+-rw-r--r--  1 root root 207966 Nov 17 03:25 ministry_coffee_main.jpg
+$ cd /workspace/shadcn-ui
+

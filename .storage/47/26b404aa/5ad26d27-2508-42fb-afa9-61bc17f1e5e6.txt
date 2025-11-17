@@ -1,0 +1,31 @@
+$ ls -la /workspace/images/
+total 1647
+drwxr-xr-x  4 root root 421888 Nov 17 03:28 .
+drwxr-xr-x 61 root root 847872 Nov 17 03:32 ..
+-rw-r--r--  1 root root 207966 Nov 17 03:28 ministry_coffee_exterior_1.jpg
+-rw-r--r--  1 root root 207966 Nov 17 03:25 ministry_coffee_main.jpg
+$ cd /workspace/shadcn-ui
+
+$ cd /workspace/shadcn-ui && mkdir -p public/assets && cp /workspace/images/*.jpg public/assets/
+
+$ cd /workspace/shadcn-ui && pnpm run lint
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1718 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.62 kB │ gzip:   0.71 kB
+dist/assets/index-RCQC0oO0.css   63.47 kB │ gzip:  11.07 kB
+dist/assets/index-j-gdN6z5.js   407.23 kB │ gzip: 128.44 kB
+✓ built in 5.87s
