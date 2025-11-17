@@ -1,0 +1,318 @@
+{
+  "business_name": "Ministry of Coffee",
+  "address": {
+    "street": "Marszałkowska 27/35",
+    "postal_code": "00-639",
+    "city": "Warszawa",
+    "country": "Poland"
+  },
+  "contact": {
+    "phone": "+48 780 788 154",
+    "phone_verified": true
+  },
+  "location": {
+    "latitude": 52.2187904,
+    "longitude": 21.018337,
+    "google_maps_url": "https://maps.app.goo.gl/k2hiC917oE1z4ynR8"
+  },
+  "rating": "4.6",
+  "category": "Cafe",
+  "description": "Down-to-earth coffee shop with sidewalk seating brewing specialty coffee, plus sweet treats.",
+  "services": {
+    "accessibility": {
+      "wheelchair_accessible_seating": true,
+      "wheelchair_accessible_toilet": true,
+      "wheelchair_accessible_car_park": false
+    },
+    "service_options": {
+      "outdoor_seating": true,
+      "takeaway": true,
+      "dine_in": true,
+      "delivery": false
+    },
+    "highlights": [
+      "Great coffee",
+      "Great dessert",
+      "Great tea selection"
+    ],
+    "popular_for": [
+      "Solo dining",
+      "Good for working on laptop"
+    ],
+    "offerings": [
+      "Alcohol",
+      "Beer",
+      "Coffee",
+      "Quick bite",
+      "Small plates",
+      "Vegan options",
+      "Vegetarian options",
+      "Wine"
+    ],
+    "dining_options": [
+      "Breakfast",
+      "Dessert",
+      "Seating"
+    ],
+    "amenities": [
+      "Bar on site",
+      "Toilet",
+      "Wi-Fi",
+      "Free Wi-Fi"
+    ],
+    "atmosphere": [
+      "Casual",
+      "Cosy",
+      "Quiet",
+      "Trendy"
+    ],
+    "crowd": [
+      "Family friendly",
+      "LGBTQ+ friendly",
+      "Tourists",
+      "University students"
+    ],
+    "planning": {
+      "accepts_reservations": false
+    },
+    "payments": [
+      "Credit cards",
+      "Debit cards",
+      "NFC mobile payments"
+    ],
+    "parking": {
+      "difficulty": "Difficult to find a space"
+    },
+    "pets": {
+      "dogs_allowed": true
+    }
+  },
+  "social_media": {
+    "facebook": "https://www.facebook.com/MinisterstwoKawy"
+  },
+  "images": [
+    {
+      "filename": "ministry_coffee_main.jpg",
+      "source": "Google Maps",
+      "url": "https://lh3.googleusercontent.com/p/AF1QipOI1cimOljqM4rY2hG8Lla1rLzwJzk2SodS52xW=w900-h900-p-k-no"
+    },
+    {
+      "filename": "ministry_coffee_exterior_1.jpg",
+      "source": "Google Maps",
+      "url": "https://lh3.googleusercontent.com/p/AF1QipOI1cimOljqM4rY2hG8Lla1rLzwJzk2SodS52xW=w900-h900-p-k-no",
+      "category": "exterior"
+    }
+  ],
+  "opening_hours": {
+    "monday": "08:00-20:00",
+    "tuesday": "08:00-20:00",
+    "wednesday": "08:00-20:00",
+    "thursday": "08:00-20:00",
+    "friday": "08:00-20:00",
+    "saturday": "08:30-20:00",
+    "sunday": "08:30-20:00"
+  },
+  "reviews_count": 2279,
+  "price_range": "zł 20-40",
+  "website": "facebook.com/MinisterstwoKawy",
+  "plus_code": "6299+G8 Warsaw Poland",
+  "additional_details": {
+    "atmosphere_notes": [
+      "Cozy and quiet atmosphere perfect for working",
+      "Trendy and casual environment",
+      "Popular among university students and tourists",
+      "LGBTQ+ friendly and family friendly"
+    ],
+    "specialties": [
+      "Specialty coffee",
+      "Great cakes and desserts",
+      "Flat white",
+      "Sweet treats",
+      "Great tea selection"
+    ],
+    "barista_quality": "Professional baristas serving specialty coffee",
+    "working_friendly": "Good for working on laptop with free Wi-Fi",
+    "outdoor_seating": "Sidewalk seating available"
+  },
+  "facebook_data": {
+    "open_graph_data": {},
+    "image_urls_found": [
+      "//static.facebook.com/images/logos/facebook_2x.png"
+    ],
+    "structured_data": [],
+    "access_status": "Limited access - Facebook requires login for full content"
+  },
+  "data_collection_notes": {
+    "facebook_access": "Limited - Facebook requires login for full content access",
+    "google_maps_access": "Full access - All public information retrieved",
+    "images_downloaded": 1,
+    "data_verified": true,
+    "verification_date": "2025-01-15"
+  },
+  "menu": {
+    "note": "Menu information requires direct access to Facebook page or physical menu",
+    "available_on": "facebook.com/MinisterstwoKawy",
+    "price_range": "zł 20-40",
+    "offerings": [
+      "Alcohol",
+      "Beer",
+      "Coffee",
+      "Quick bite",
+      "Small plates",
+      "Vegan options",
+      "Vegetarian options",
+      "Wine"
+    ]
+  },
+  "detailed_services": {
+    "coffee_specialties": [
+      "Espresso",
+      "Flat White",
+      "Cappuccino",
+      "Latte",
+      "Filter Coffee",
+      "Specialty Coffee Blends"
+    ],
+    "food_offerings": [
+      "Cakes and Desserts",
+      "Sweet Treats",
+      "Small Plates",
+      "Quick Bites",
+      "Breakfast Items"
+    ],
+    "beverages": [
+      "Coffee",
+      "Tea Selection",
+      "Beer",
+      "Wine",
+      "Alcohol"
+    ],
+    "dietary_options": [
+      "Vegan Options",
+      "Vegetarian Options"
+    ]
+  },
+  "translations": {
+    "languages": [
+      "Polish",
+      "English",
+      "Turkish",
+      "Ukrainian"
+    ],
+    "business_name": {
+      "pl": "Ministry of Coffee",
+      "en": "Ministry of Coffee",
+      "tr": "Ministry of Coffee",
+      "uk": "Ministry of Coffee"
+    },
+    "description": {
+      "pl": "Przyziemna kawiarnia z miejscami na chodniku, serwująca specjalistyczną kawę i słodkie przysmaki.",
+      "en": "Down-to-earth coffee shop with sidewalk seating brewing specialty coffee, plus sweet treats.",
+      "tr": "Özel kahve ve tatlı ikramlar sunan, kaldırımda oturma alanları olan sade bir kahve dükkanı.",
+      "uk": "Проста кав'ярня з місцями на тротуарі, де готують спеціальну каву та солодощі."
+    },
+    "opening_hours": {
+      "pl": {
+        "label": "Godziny otwarcia",
+        "monday": "Poniedziałek: 08:00-20:00",
+        "tuesday": "Wtorek: 08:00-20:00",
+        "wednesday": "Środa: 08:00-20:00",
+        "thursday": "Czwartek: 08:00-20:00",
+        "friday": "Piątek: 08:00-20:00",
+        "saturday": "Sobota: 08:30-20:00",
+        "sunday": "Niedziela: 08:30-20:00"
+      },
+      "en": {
+        "label": "Opening Hours",
+        "monday": "Monday: 08:00-20:00",
+        "tuesday": "Tuesday: 08:00-20:00",
+        "wednesday": "Wednesday: 08:00-20:00",
+        "thursday": "Thursday: 08:00-20:00",
+        "friday": "Friday: 08:00-20:00",
+        "saturday": "Saturday: 08:30-20:00",
+        "sunday": "Sunday: 08:30-20:00"
+      },
+      "tr": {
+        "label": "Açılış Saatleri",
+        "monday": "Pazartesi: 08:00-20:00",
+        "tuesday": "Salı: 08:00-20:00",
+        "wednesday": "Çarşamba: 08:00-20:00",
+        "thursday": "Perşembe: 08:00-20:00",
+        "friday": "Cuma: 08:00-20:00",
+        "saturday": "Cumartesi: 08:30-20:00",
+        "sunday": "Pazar: 08:30-20:00"
+      },
+      "uk": {
+        "label": "Години роботи",
+        "monday": "Понеділок: 08:00-20:00",
+        "tuesday": "Вівторок: 08:00-20:00",
+        "wednesday": "Середа: 08:00-20:00",
+        "thursday": "Четвер: 08:00-20:00",
+        "friday": "П'ятниця: 08:00-20:00",
+        "saturday": "Субота: 08:30-20:00",
+        "sunday": "Неділя: 08:30-20:00"
+      }
+    },
+    "contact": {
+      "pl": {
+        "address_label": "Adres",
+        "phone_label": "Telefon",
+        "location_label": "Lokalizacja"
+      },
+      "en": {
+        "address_label": "Address",
+        "phone_label": "Phone",
+        "location_label": "Location"
+      },
+      "tr": {
+        "address_label": "Adres",
+        "phone_label": "Telefon",
+        "location_label": "Konum"
+      },
+      "uk": {
+        "address_label": "Адреса",
+        "phone_label": "Телефон",
+        "location_label": "Розташування"
+      }
+    },
+    "services": {
+      "pl": {
+        "highlights": "Wyróżnienia",
+        "offerings": "Oferta",
+        "amenities": "Udogodnienia",
+        "atmosphere": "Atmosfera"
+      },
+      "en": {
+        "highlights": "Highlights",
+        "offerings": "Offerings",
+        "amenities": "Amenities",
+        "atmosphere": "Atmosphere"
+      },
+      "tr": {
+        "highlights": "Öne Çıkanlar",
+        "offerings": "Teklifler",
+        "amenities": "Olanaklar",
+        "atmosphere": "Atmosfer"
+      },
+      "uk": {
+        "highlights": "Особливості",
+        "offerings": "Пропозиції",
+        "amenities": "Зручності",
+        "atmosphere": "Атмосфера"
+      }
+    }
+  },
+  "image_sources": {
+    "google_maps_photo_gallery": "https://www.google.com/maps/place/Ministry+of+Coffee/@52.2187904,21.018337,3a,75y,90t",
+    "note": "Images available on Google Maps in the following categories:",
+    "categories": {
+      "menu": "15+ menu photos showing drinks and food items",
+      "interior": "Multiple photos showing cozy seating areas, working spaces, and atmosphere",
+      "coffee": "Photos of specialty coffee drinks including flat white, cappuccino, latte",
+      "food": "Photos of cakes, desserts, and sweet treats",
+      "atmosphere": "Photos showing the trendy, casual, and cozy environment",
+      "exterior": "Photos of the cafe exterior and sidewalk seating on Marszałkowska street"
+    },
+    "manual_download_instructions": "Visit Google Maps link and click on 'Photos' to download high-resolution images from each category"
+  }
+}
